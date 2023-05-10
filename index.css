@@ -1,0 +1,36 @@
+#canvas{
+    background-color: rgb(255, 255, 255);
+    cursor: crosshair;
+
+}
+
+body{
+    margin: 0;
+    padding-bottom: 0;
+    margin-left:150px;
+    background-color: black;
+}
+
+/* h1{
+    background-color: aliceblue;
+    display: inline-block;
+    display: flex;
+} */
+
+#contaner{
+    display: flex;
+    display: inline;
+    position: relative;
+    right: 130px;
+    top: -600px;
+}
+
+#slider{
+    width: 100px;
+}
+
+#clear{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}

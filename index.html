@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <!-- <h1>Draw</h1> -->
+    <canvas id="canvas" onmouseover="paint()"></canvas>
+    <div id="contaner">
+        <input type="color" id="ColorPicker" onchange="changeColor(this)">
+        <br>
+        <br>
+        <input type="range" min="1" max="100" id="slider" onchange="ChangeWidth(this)">
+        <br>
+        <br>
+        <!-- <button id="clear" onclick="clearScreen()">Clear</button> -->
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
